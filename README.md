@@ -1,32 +1,92 @@
-<h1 align="center">Hi there, I'm GORLA POOJITHA 👋</h1>
-<h3 align="center">Aspiring Data Scientist | Python | DSA | Machine Learning</h3>
+<!-- 🌟 Personal GitHub Portfolio -->
+<h1 align="center">Hi 👋, I'm <span style="color:#7c3aed;">Gorla Poojitha</span></h1>
+<h3 align="center">AI & ML Enthusiast • Data Science Practitioner • Final-year B.Tech (AI & ML)</h3>
 
 ---
 
-🌱 **About Me**  
-- 🚀 Passionate about **Data Science & Machine Learning**  
-- 🏗 Currently mastering **DSA with Python** and **scikit-learn**  
-- 🎯 Goal: Becoming a **Data Scientist** in the next few months  
-- 📖 Learning & practicing daily on **NxtWave DSA** platform  
-- 📊 Exploring **ML models, statistics, and real-world datasets**  
+<div align="center">
+  <img src="https://img.shields.io/badge/Focus-Data%20Science%20%7C%20AI%20%7C%20ML-blueviolet?style=flat-square" />
+  <img src="https://img.shields.io/badge/Location-Hyderabad%2C%20India-ff69b4?style=flat-square" />
+</div>
 
 ---
 
-🛠 **Tech Stack & Skills**  
-- **Languages:** ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)  
-- **Data Science & ML:** ![Scikit-Learn](https://img.shields.io/badge/-Scikit%20Learn-F7931E?style=flat&logo=scikitlearn&logoColor=white) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas) ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat&logo=numpy)  
-- **Algorithms & DSA:** ![Data Structures](https://img.shields.io/badge/-Data%20Structures%20%26%20Algorithms-00599C?style=flat)  
-- **Databases:** ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=postgresql&logoColor=white)  
-- **Tools:** ![Jupyter Notebook](https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visualstudiocode)  
-- **Version Control:** ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)  
+### 👩‍💻 About Me  
+
+> “Turning data into insights and insights into impact.”  
+
+🎓 Final-year **B.Tech student in Artificial Intelligence & Machine Learning**  
+💡 Passionate about **Data Science, NLP, and AI-based solutions**  
+🧠 Building projects in **Machine Learning, Deep Learning, and Generative AI**  
+📊 Experienced with **EDA, data visualization, and dashboard storytelling**  
+🚀 Currently exploring **FastAPI, Hugging Face models, and model deployment**  
 
 ---
 
-📈 **My Learning Progress**  
-```mermaid
-graph TD;
-  A[Python Basics] --> B[Data Structures & Algorithms];
-  B --> C[Pandas & NumPy];
-  C --> D[Scikit-Learn & Machine Learning];
-  D --> E[Projects & Real-world Datasets];
-  E --> F[Job Ready as Data Scientist];
+### 🧰 Technical Toolbox  
+
+#### 💻 Languages & Databases  
+`Python` • `SQL` • `MySQL`
+
+#### ⚙️ ML Frameworks & Libraries  
+`TensorFlow` • `Scikit-learn` • `Hugging Face` • `FastAPI` • `Streamlit` • `Flask`
+
+#### 📊 Visualization & Tools  
+`Power BI` • `Excel` • `Git & GitHub` • `Jupyter Notebook`  
+
+---
+
+### 🧩 Featured Projects  
+
+#### 🧠 [Social Media Sentiment Analysis](https://github.com/poojithareddy19/Sentiment-Analysis-in-Social-Media)
+**Tech Stack:** Python, Scikit-learn, Hugging Face, Streamlit, FastAPI  
+Built an end-to-end NLP model that classifies social media posts into **positive, neutral, and negative** sentiments.  
+🏆 *Achieved Macro F1-Score: 0.82 | Deployed as a live web app.*
+
+---
+
+#### 🍽️ [Zomato Pune Data Analysis](https://github.com/poojithareddy19)
+**Tech Stack:** Python, Pandas, Power BI  
+Performed EDA on 5,000+ restaurant records and developed **interactive dashboards** with key insights and visual storytelling.  
+
+---
+
+### 📜 Certifications  
+
+| Certification | Organization | Date |
+|----------------|---------------|-------|
+| Getting Started with AI | IBM | Feb 2025 |
+| Generative AI Fundamentals | Databricks | Apr 2025 |
+| Python for Data Analysis | CognitiveClass.ai | Jan 2025 |
+| Prompt Engineering for Everyone | CognitiveClass.ai | Apr 2025 |
+| Generative AI | LinkedIn Learning | Apr 2025 |
+
+---
+
+### 🧑‍💼 Let's Connect  
+
+<div align="center">
+  <a href="mailto:gorlapoojithareddy@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/gorlapoojitha"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://github.com/poojithareddy19"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+</div>
+
+---
+
+### 📈 GitHub Stats  
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=poojithareddy19&show_icons=true&theme=transparent" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=poojithareddy19&theme=transparent" width="48%" />
+</div>
+
+---
+
+### 🌱 Fun Fact  
+> *AI doesn’t replace people — it empowers those who know how to use it.* 🤖  
+
+---
+
+⭐ *From [Gorla Poojitha](https://github.com/poojithareddy19)*  
+📍 *Hyderabad, India*  
+🕊️ *Always learning. Always building.*
