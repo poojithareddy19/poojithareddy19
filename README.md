@@ -11,7 +11,7 @@
   <a href="mailto:poojithareddy1905@gmail.com"><img src="https://img.shields.io/badge/Email-poojithareddy1905%40gmail.com-30363d?style=flat-square&logo=gmail&logoColor=white&labelColor=161b22" alt="Email"></a>
 </p>
 
-I am a Computer Science graduate (B.Tech, AI & ML, 2026) who builds machine learning and LLM systems end to end, from raw scientific and business data to cited RAG answers, validated text-to-SQL and tested, deployed services. Every project ships with tests, CI and a documented evaluation against a fair baseline, and I report the numbers as measured, including when the simpler model wins.
+I am a Computer Science graduate (B.Tech, AI & ML, 2026) who builds machine learning and LLM systems end to end, from raw scientific and business data to cited RAG answers, validated text-to-SQL and tested, deployed services and web apps. Every project ships with tests, CI and a documented evaluation against a fair baseline, and I report the numbers as measured, including when the simpler model wins.
 
 **Currently:** open to entry-level Data Scientist, ML Engineer and AI Engineer roles.
 
@@ -32,6 +32,12 @@ I am a Computer Science graduate (B.Tech, AI & ML, 2026) who builds machine lear
 | [**Customer Churn Prediction**](https://github.com/poojithareddy19/Customer-Churn-Prediction) | Calibrated XGBoost model with a decision threshold chosen by business cost, rebuilt after I found and fixed data leakage in my original notebook. | 0.944 churn recall on held-out test (353 of 374 churners), 0.836 ROC-AUC |
 | [**TweetEval Sentiment Analysis**](https://github.com/poojithareddy19/TweetEval-Sentiment-Analysis) | TF-IDF + logistic regression, BiLSTM, BiGRU and RoBERTa compared on the official TweetEval splits with one shared metrics function. | 0.599 test macro recall (TF-IDF + LR, which beat both RNNs), 38 tests |
 
+### Full-stack Web
+
+| Project | Description | Result |
+| :-- | :-- | :-- |
+| [**Updates Is All You Need**](https://github.com/poojithareddy19/updates-is-all-you-need) · [Live](https://updates-is-all-you-need.vercel.app) | Daily AI news dashboard in Next.js and TypeScript: a cron pipeline fetches 12 sources in parallel, removes duplicates and stores to Postgres with full-text search, behind a cached, streamed UI with bookmarks, a 90-day archive and dark mode. Optional Claude API summaries. | Live on Vercel and Neon; a repeat run caught 328/328 duplicates; Lighthouse 97 mobile / 100 desktop performance and 100 accessibility; 89 tests |
+
 ## Experience
 
 **Data Analytics Intern**, ThinkMates EduTech Pvt. Ltd. · Mar 2025 to Jul 2025<br>
@@ -41,8 +47,8 @@ Analysed 12,000+ Zomato (Pune) restaurant records in Python, Excel and Power BI,
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cpostgres%2Cmysql%2Csklearn%2Cpytorch%2Ctensorflow%2Cfastapi%2Creact%2Cdocker%2Cgithubactions%2Cprometheus%2Cgit&perline=12&theme=dark">
-    <img src="https://skillicons.dev/icons?i=python%2Cpostgres%2Cmysql%2Csklearn%2Cpytorch%2Ctensorflow%2Cfastapi%2Creact%2Cdocker%2Cgithubactions%2Cprometheus%2Cgit&perline=12&theme=light" alt="Python, PostgreSQL, MySQL, scikit-learn, PyTorch, TensorFlow, FastAPI, React, Docker, GitHub Actions, Prometheus, Git">
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cts%2Cpostgres%2Cmysql%2Csklearn%2Cpytorch%2Ctensorflow%2Cfastapi%2Cnextjs%2Creact%2Ctailwind%2Cdocker%2Cgithubactions%2Cvercel%2Cprometheus%2Cgit&perline=16&theme=dark">
+    <img src="https://skillicons.dev/icons?i=python%2Cts%2Cpostgres%2Cmysql%2Csklearn%2Cpytorch%2Ctensorflow%2Cfastapi%2Cnextjs%2Creact%2Ctailwind%2Cdocker%2Cgithubactions%2Cvercel%2Cprometheus%2Cgit&perline=16&theme=light" alt="Python, TypeScript, PostgreSQL, MySQL, scikit-learn, PyTorch, TensorFlow, FastAPI, Next.js, React, Tailwind CSS, Docker, GitHub Actions, Vercel, Prometheus, Git">
   </picture>
 </p>
 
@@ -52,6 +58,7 @@ Analysed 12,000+ Zomato (Pune) restaurant records in Python, Excel and Power BI,
 | Machine learning | scikit-learn, XGBoost, imbalanced-learn, PyTorch, TensorFlow / Keras, Hugging Face Transformers |
 | LLMs and retrieval | RAG, text-to-SQL, pgvector, FAISS, sentence-transformers, Ollama, Llama 3.1 |
 | MLOps | FastAPI, Docker, GitHub Actions, DVC, MLflow, Evidently, Prometheus, OpenTelemetry, pytest |
+| Web | TypeScript, Next.js, React, Tailwind CSS, shadcn/ui, Drizzle ORM, Vercel, Vitest |
 
 ## Certifications
 
