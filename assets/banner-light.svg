@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Gorla Poojitha, Data Scientist and ML Engineer, Hyderabad, India. Portfolio: gorlapoojitha.vercel.app">
+  <style>
+    .ill { color: #818b98; }
+    .ill .hi { color: #1f2328; }
+    .sans { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .spin-a { transform-origin: 1030px 160px; animation: spin 40s linear infinite; }
+    .spin-b { transform-origin: 1030px 160px; animation: spin 64s linear infinite reverse; }
+    @media (prefers-reduced-motion: reduce) { .spin-a, .spin-b { animation: none; } }
+  </style>
+  <defs>
+    <clipPath id="c"><rect x="1" y="1" width="1198" height="318" rx="24"/></clipPath>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#d0d7de" stroke-width="1"/></pattern>
+    <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="1"/><stop offset="0.55" stop-color="#ffffff" stop-opacity="0.92"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.35"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="318" rx="24" fill="#ffffff"/>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <rect width="1200" height="320" fill="url(#fade)"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="318" rx="24" fill="none" stroke="#d0d7de" stroke-width="2"/>
+
+  <circle cx="72" cy="80" r="5" fill="#1f2328"/>
+  <text x="88" y="86" class="mono" font-size="15" font-weight="700" letter-spacing="1.8" fill="#59636e">OPEN TO ENTRY-LEVEL ROLES</text>
+  <text x="64" y="158" class="sans" font-size="66" font-weight="800" letter-spacing="-2" fill="#1f2328">Gorla Poojitha</text>
+  <text x="66" y="204" class="sans" font-size="31" font-weight="600" fill="#59636e">Data Scientist &amp; ML Engineer</text>
+  <text x="66" y="246" class="sans" font-size="20" fill="#59636e">Hyderabad, India  ·  B.Tech CSE (AI &amp; ML), 2026</text>
+  <text x="66" y="282" class="mono" font-size="18" font-weight="700" fill="#1f2328">gorlapoojitha.vercel.app</text>
+
+  <g class="spin-a" fill="none" stroke="#1f2328" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="3 9">
+    <circle cx="1030" cy="160" r="122"/>
+  </g>
+  <g class="spin-b" fill="none" stroke="#1f2328" stroke-width="2.5" stroke-linecap="round">
+    <path d="M1030 62 A98 98 0 0 1 1128 160" stroke-opacity="0.9"/>
+    <path d="M1030 258 A98 98 0 0 1 932 160" stroke-opacity="0.45"/>
+    <circle cx="1128" cy="160" r="6" fill="#1f2328" stroke="none"/>
+    <circle cx="932" cy="160" r="4" fill="#1f2328" fill-opacity="0.6" stroke="none"/>
+  </g>
+  <circle cx="1030" cy="160" r="76" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
+  <path d="M980 160h100M1030 110v100" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="1030" y="162" text-anchor="middle" dominant-baseline="middle" class="sans" font-size="56" font-weight="800" letter-spacing="-2" fill="#1f2328">GP</text>
+</svg>

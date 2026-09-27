@@ -1,18 +1,19 @@
-<h1 align="center">Hi, I'm Gorla Poojitha</h1>
-
-<p align="center">
-  <b>Data Scientist &amp; ML Engineer</b> · Hyderabad, India · B.Tech CSE (AI &amp; ML), 2026
-</p>
+<a href="https://gorlapoojitha.vercel.app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <img src="assets/banner-light.svg" width="100%" alt="Gorla Poojitha, Data Scientist and ML Engineer, Hyderabad, India. Portfolio: gorlapoojitha.vercel.app">
+  </picture>
+</a>
 
 <p align="center">
   I build machine learning and LLM systems end to end, from raw data to a tested, deployed app, and I report the results honestly.
 </p>
 
 <p align="center">
-  <a href="https://gorlapoojitha.vercel.app"><img src="https://img.shields.io/badge/Portfolio-visit-111111?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"></a>
-  <img src="https://img.shields.io/badge/Open%20to-entry--level%20roles-111111?style=flat-square" alt="Open to entry-level roles">
-  <a href="https://www.linkedin.com/in/gorlapoojitha"><img src="https://img.shields.io/badge/LinkedIn-gorlapoojitha-111111?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:poojithareddy1905@gmail.com"><img src="https://img.shields.io/badge/Email-poojithareddy1905%40gmail.com-111111?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://gorlapoojitha.vercel.app"><img src="https://img.shields.io/badge/Portfolio-visit-30363d?style=flat-square&labelColor=161b22&logo=vercel&logoColor=white" alt="Portfolio"></a>
+  <img src="https://img.shields.io/badge/Open%20to-entry--level%20roles-30363d?style=flat-square&labelColor=161b22" alt="Open to entry-level roles">
+  <a href="https://www.linkedin.com/in/gorlapoojitha"><img src="https://img.shields.io/badge/LinkedIn-gorlapoojitha-30363d?style=flat-square&labelColor=161b22&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:poojithareddy1905@gmail.com"><img src="https://img.shields.io/badge/Email-poojithareddy1905%40gmail.com-30363d?style=flat-square&labelColor=161b22&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
 ---
@@ -28,6 +29,27 @@
 
 ### Featured projects
 
+<p align="center">
+  <a href="https://github.com/poojithareddy19/FloatChat-ARGO-RAG"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/floatchat-dark.svg"><img src="assets/floatchat-light.svg" width="100%" alt="FloatChat: conversational access to ARGO ocean data. 0.667 text-to-SQL execution accuracy (single run), 22/22 correct citations, 7/7 unanswerable questions refused."></picture></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/poojithareddy19/Daily-Temperature-Forecasting"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/temperature-dark.svg"><img src="assets/temperature-light.svg" width="49%" alt="Daily Temperature Forecasting, live v1.0.0. Test RMSE 2.147 degrees C, about 13% better than the persistence baseline."></picture></a>
+  <a href="https://github.com/poojithareddy19/Customer-Churn-Prediction"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/churn-dark.svg"><img src="assets/churn-light.svg" width="49%" alt="Telco Customer Churn Prediction. Churn recall 0.944 on held-out test, ROC-AUC 0.836."></picture></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/poojithareddy19/Chat-With-Documents"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chat-with-documents-dark.svg"><img src="assets/chat-with-documents-light.svg" width="49%" alt="Chat with Documents. Recall@5 0.80 on the frozen question set, 0.87 after adjudication."></picture></a>
+  <a href="https://github.com/poojithareddy19/TweetEval-Sentiment-Analysis"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tweeteval-dark.svg"><img src="assets/tweeteval-light.svg" width="49%" alt="TweetEval Sentiment Analysis. Macro recall 0.599 (TF-IDF + LR) on 12,284 test tweets."></picture></a>
+</p>
+
+<p align="center">
+  <b>Try it live:</b> <a href="https://temperature-forecast-api-mejw.onrender.com">Daily Temperature Forecasting</a> · <b>Portfolio:</b> <a href="https://gorlapoojitha.vercel.app">gorlapoojitha.vercel.app</a>
+</p>
+
+<details>
+<summary>Project details</summary>
+
 | Project | What it does | Result |
 | --- | --- | --- |
 | [**FloatChat-ARGO-RAG**](https://github.com/poojithareddy19/FloatChat-ARGO-RAG) | Plain-English questions over real Indian Ocean ARGO float data, answered by cited RAG or validated text-to-SQL run as a read-only role. Built for Smart India Hackathon 2025 problem statement SIH25040. | 0.667 text-to-SQL execution accuracy (single run), 22/22 correct citations, 7/7 unanswerable questions refused, 476 tests |
@@ -35,6 +57,8 @@
 | [**Customer-Churn-Prediction**](https://github.com/poojithareddy19/Customer-Churn-Prediction) | Calibrated XGBoost churn model with a decision threshold chosen by business cost, after I found and fixed data leakage in my original notebook. | Churn recall 0.944 on held-out test (353 of 374 churners), ROC-AUC 0.836 |
 | [**Chat-With-Documents**](https://github.com/poojithareddy19/Chat-With-Documents) | Private question answering over PDFs with page-level citations; a framework-free rebuild of an old LangChain tutorial. | Recall@5 0.80 on a frozen 30-question set (0.87 after adjudication), 29 tests |
 | [**TweetEval-Sentiment-Analysis**](https://github.com/poojithareddy19/TweetEval-Sentiment-Analysis) | TF-IDF + Logistic Regression, BiLSTM, BiGRU and RoBERTa compared fairly on the official TweetEval benchmark, with a Streamlit app. | Macro recall 0.599 (TF-IDF + LR) on 12,284 test tweets, 38 tests |
+
+</details>
 
 ---
 

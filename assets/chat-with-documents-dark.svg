@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="Chat with Documents. Recall at 5 of 0.80 on the frozen question set, 0.87 after adjudication.">
+  <style>
+    .ill { color: #6e7681; }
+    .ill .hi { color: #e6edf3; }
+    .sans { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .spin-a { transform-origin: 1030px 160px; animation: spin 40s linear infinite; }
+    .spin-b { transform-origin: 1030px 160px; animation: spin 64s linear infinite reverse; }
+    @media (prefers-reduced-motion: reduce) { .spin-a, .spin-b { animation: none; } }
+  </style>
+  <defs><clipPath id="c"><rect x="1" y="1" width="798" height="448" rx="22"/></clipPath><clipPath id="well"><rect x="0" y="0" width="800" height="190"/></clipPath></defs>
+  <rect x="1" y="1" width="798" height="448" rx="22" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+  <g clip-path="url(#c)">
+    <rect x="0" y="0" width="800" height="190" fill="#0d1117"/>
+    <path d="M0 190h800" stroke="#30363d" stroke-width="2"/>
+    <g clip-path="url(#well)"><svg class="ill" x="0" y="8" width="800" height="174" viewBox="0 0 400 150" preserveAspectRatio="xMidYMid meet" overflow="visible">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <rect x="62" y="30" width="110" height="112" rx="10" stroke-opacity="0.4"/>
+        <rect x="82" y="16" width="110" height="120" rx="10" fill="#161b22" class="hi"/>
+        <g stroke-opacity="0.45"><path d="M98 40h70M98 56h78M98 72h60M98 104h74M98 120h52"/></g>
+        <path d="M98 88h64" class="hi" stroke-width="6"/>
+        <path d="M168 88 C210 88 212 62 240 62" class="hi" stroke-dasharray="4 6"/>
+        <rect x="240" y="40" width="130" height="44" rx="12" class="hi" fill="#161b22"/>
+        <text x="305" y="67" text-anchor="middle" class="mono hi" font-size="13" fill="currentColor" stroke="none">[1] p. 16</text>
+      </g></svg></g>
+  </g>
+  <text x="40" y="236" class="mono" font-size="15" font-weight="700" letter-spacing="1.5" fill="#6e7681">LLM · RAG</text>
+  <g><rect x="704" y="216" width="64" height="30" rx="15" fill="none" stroke="#30363d"/><text x="736" y="236" text-anchor="middle" class="mono" font-size="14" font-weight="700" fill="#9198a1">LOCAL</text></g>
+  <text x="40" y="286" class="sans" font-size="34" font-weight="700" fill="#e6edf3">Chat with Documents</text>
+  <text x="40" y="350" class="mono" font-size="38" font-weight="700" fill="#e6edf3">0.80</text><text x="40" y="380" class="sans" font-size="17" fill="#9198a1">recall@5 (frozen set)</text><text x="370" y="350" class="mono" font-size="38" font-weight="700" fill="#e6edf3">0.87</text><text x="370" y="380" class="sans" font-size="17" fill="#9198a1">after adjudication</text>
+  <text x="40" y="422" class="mono" font-size="15" fill="#6e7681">FAISS · sentence-transformers · Ollama · Streamlit</text>
+</svg>
