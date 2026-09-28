@@ -86,7 +86,7 @@ Analysed 12,000+ Zomato (Pune) restaurant records in Python, Excel and Power BI,
 
 ## Education
 
-**B.Tech, Computer Science and Engineering (AI & ML)**, TKR College of Engineering and Technology, Hyderabad · 2022 to 2026 · CGPA 8.12
+**B.Tech, Computer Science and Engineering (AI & ML)**, TKR College of Engineering and Technology, Hyderabad · 2022 to 2026 · CGPA 8.23
 
 ---
 
