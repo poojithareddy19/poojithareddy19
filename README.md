@@ -40,7 +40,7 @@ I am a Computer Science graduate (B.Tech, AI & ML, 2026) who builds machine lear
 
 ## Experience
 
-**Data Analytics Intern**, ThinkMates EduTech Pvt. Ltd. · Mar 2025 to Jul 2025<br>
+**Business Analytics Intern**, ThinkMates EduTech Pvt. Ltd. · Jul 2025 to Aug 2025<br>
 Analysed 12,000+ Zomato (Pune) restaurant records in Python, Excel and Power BI, engineered features for consistent KPIs, and built three dashboards for sales, manager and CEO audiences.
 
 ## Tech Stack
