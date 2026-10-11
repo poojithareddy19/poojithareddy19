@@ -32,6 +32,12 @@ I am a Computer Science graduate (B.Tech, AI & ML, 2026) who builds machine lear
 | [**Customer Churn Prediction**](https://github.com/poojithareddy19/Customer-Churn-Prediction) | Calibrated XGBoost model with a decision threshold chosen by business cost, rebuilt after I found and fixed data leakage in my original notebook. | 0.944 churn recall on held-out test (353 of 374 churners), 0.836 ROC-AUC |
 | [**TweetEval Sentiment Analysis**](https://github.com/poojithareddy19/TweetEval-Sentiment-Analysis) | TF-IDF + logistic regression, BiLSTM, BiGRU and RoBERTa compared on the official TweetEval splits with one shared metrics function. | 0.599 test macro recall (TF-IDF + LR, which beat both RNNs), 38 tests |
 
+### Data Analytics
+
+| Project | Description | Result |
+| :-- | :-- | :-- |
+| [**InsightOps**](https://github.com/poojithareddy19/insightops-ecommerce-analytics) | End-to-end analytics on about 100k orders from the Olist marketplace: a DuckDB warehouse modeled with dbt, 17 SQL analyses, a simulated A/B test with a ship/no-ship memo, dashboards and a capstone recommendation on repeat purchases. | 17 dbt models, 49 data tests; true repeat rate 2.2%, not 3.0% (250 split checkouts); recommended against a significant A/B win that lost about R$59k |
+
 ## Experience
 
 **Business Analytics Intern**, ThinkMates EduTech Pvt. Ltd. · Jul 2025 to Aug 2025<br>
@@ -48,7 +54,7 @@ Analysed 12,000+ Zomato (Pune) restaurant records in Python, Excel and Power BI,
 
 | Area | Tools |
 | :-- | :-- |
-| Data and analytics | pandas, NumPy, SQL, PostGIS, Power BI, Excel, Matplotlib, Seaborn |
+| Data and analytics | pandas, NumPy, SQL, dbt, DuckDB, PostGIS, Power BI, Excel, Matplotlib, Seaborn |
 | Machine learning | scikit-learn, XGBoost, imbalanced-learn, PyTorch, TensorFlow / Keras, Hugging Face Transformers |
 | LLMs and retrieval | RAG, text-to-SQL, pgvector, FAISS, sentence-transformers, Ollama, Llama 3.1 |
 | MLOps | FastAPI, Docker, GitHub Actions, DVC, MLflow, Evidently, Prometheus, OpenTelemetry, pytest |
